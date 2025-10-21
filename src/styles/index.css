@@ -706,3 +706,33 @@ img::after {
   font-weight: bold;
   text-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
+
+/* ========== MOBILE FIXES ========== */
+
+/* Header logo alignment - mobile only */
+@media (max-width: 640px) {
+  .neon-text {
+    font-size: 0.75rem !important;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* Glitch text alignment fix - mobile only */
+@media (max-width: 768px) {
+  .glitch-text::before,
+  .glitch-text::after {
+    top: 0 !important;
+  }
+  
+  .dark .glitch-text::before,
+  .light .glitch-text::before {
+    top: 0 !important;
+  }
+  
+  .dark .glitch-text::after,
+  .light .glitch-text::after {
+    top: 0 !important;
+  }
+}
