@@ -84,7 +84,6 @@ const HomePage = () => {
             <h1
               ref={titleRef}
               className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-cyber font-black leading-none glitch-text"
-              data-text="HRISHIKESH GAVAI"
             >
               <span className="block neon-text">HRISHIKESH</span>
               <span className="block neon-text mt-2">GAVAI</span>
