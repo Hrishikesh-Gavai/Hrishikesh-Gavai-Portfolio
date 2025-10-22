@@ -158,12 +158,11 @@ const CertificationsPage = () => {
                 {cert.skills.map((skill, i) => (
                   <span
                     key={i}
-                    className={`px-3 py-1 border text-xs font-mono uppercase ${
-                      theme === 'dark' ? 'bg-darkGray' : 'bg-lightGray'
-                    }`}
+                    className="px-3 py-1 border text-xs font-mono uppercase rounded-md"
                     style={{
-                      borderColor: `var(--primary-color)`,
-                      color: `var(--primary-color)`,
+                      borderColor: 'var(--primary-color)',
+                      backgroundColor: 'var(--primary-color)',
+                      color: theme === 'dark' ? '#000000' : '#ffffff',
                     }}
                   >
                     {skill}
