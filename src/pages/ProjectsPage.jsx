@@ -40,6 +40,15 @@ const ProjectsPage = () => {
       featured: true,
     },
     {
+      title: 'UniMail – KKWIEER',
+      year: '2025',
+      description: 'A professional institutional email management system built for K. K. Wagh Institute of Engineering Education and Research as a DBMS project. UniMail provides a secure, database-driven platform for composing, storing, and translating institutional emails with Hindi/Marathi support, PDF management, and Gmail integration — all in a modern glassmorphism UI.',
+      image: 'https://images.unsplash.com/photo-1731963094554-c5c981ccdefd?w=1920&q=95&auto=format',
+      github: 'https://github.com/Hrishikesh-Gavai/UniMail-KKWIEER.git',
+      demo: 'https://unimail-kkwieer.vercel.app',
+      featured: true,
+    },
+    {
       title: 'Answer Sheet Analyzer',
       year: '2024',
       description: 'An AI-driven platform that transforms traditional grading by providing fast, consistent, and insightful evaluations of student answer sheets. The system scans and auto-evaluates responses against model solutions, generates qualitative feedback and performance analytics.',
