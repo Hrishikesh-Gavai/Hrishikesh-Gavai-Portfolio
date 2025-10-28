@@ -43,6 +43,7 @@ const ProjectsPage = () => {
       title: 'UniMail – KKWIEER',
       year: '2025',
       description: 'A professional institutional email management system built for K. K. Wagh Institute of Engineering Education and Research as a DBMS project. UniMail provides a secure, database-driven platform for composing, storing, and translating institutional emails with Hindi/Marathi support, PDF management, and Gmail integration — all in a modern glassmorphism UI.',
+      tech: ['PostgreSQL', 'Supabase', 'DBMS', 'React', 'Gmail', 'Translation'],
       image: 'https://images.unsplash.com/photo-1731963094554-c5c981ccdefd?w=1920&q=95&auto=format',
       github: 'https://github.com/Hrishikesh-Gavai/UniMail-KKWIEER.git',
       demo: 'https://unimail-kkwieer.vercel.app',
