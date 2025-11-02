@@ -76,7 +76,7 @@ const CertificationsPage = () => {
   const achievements = [
     {
       title: '2nd Rank at College Level PBL Project Competition',
-      description: 'Secured 2nd position in college-level Project Based Learning competition, demonstrating innovation and technical excellence.',
+      description: 'Secured 2nd place in college-level Project Based Learning competition, demonstrating innovation and technical excellence.',
       icon: <Medal className="w-8 h-8" style={{ color: `var(--primary-color)` }} />,
     },
     {
@@ -93,6 +93,11 @@ const CertificationsPage = () => {
       title: 'Top 1% Ranking in NPTEL Course',
       description: 'Secured top 1% ranking among thousands of participants in a prestigious NPTEL online course.',
       icon: <Award className="w-8 h-8" style={{ color: `var(--primary-color)` }} />,
+    },
+    {
+      title: '2nd Rank at College Level DSA Project Competition',
+      description: 'Secured 2nd place in a college-level Data Structures & Algorithms competition, demonstrating strong mastery of DSA concepts.',
+      icon: <Medal className="w-8 h-8" style={{ color: `var(--primary-color)` }} />,
     },
   ];
 
