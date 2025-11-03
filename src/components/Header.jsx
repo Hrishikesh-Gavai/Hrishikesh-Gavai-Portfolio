@@ -50,7 +50,7 @@ const Header = ({ isMuted, setIsMuted }) => {
             style={{ color: `var(--primary-color)` }}
           />
           <span className="text-xs sm:text-lg md:text-xl lg:text-2xl font-cyber font-bold tracking-wider neon-text flex items-center">
-            <span className="hidden sm:inline">HRISHIKESH - N.E.R.V
+            <span className="hidden sm:inline">HRISHIKESH - N.E.R.V</span>
           </span>
         </Link>
 
