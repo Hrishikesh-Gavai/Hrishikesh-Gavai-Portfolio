@@ -40,6 +40,16 @@ const ProjectsPage = () => {
       featured: true,
     },
     {
+      title: 'PulseSynopsis',
+      year: '2025',
+      description: 'A real-time news intelligence platform that delivers AI-powered summaries, multi-perspective analysis, and interactive visualizations to help users understand complex stories faster.',
+      tech: ['React', 'Typescript', 'Tailwind CSS', 'Vite', 'React Router', 'shadcn/ui', 'Analytics', 'Web Designing'],
+      image: 'https://images.unsplash.com/photo-1624562368700-223d7856489f?w=1920&q=95&auto=format',
+      github: 'https://github.com/Hrishikesh-Gavai/PulseSynopsis.git',
+      demo: 'https://pulse-synopsis.vercel.app',
+      featured: true,
+    },
+    {
       title: 'UniMail – KKWIEER',
       year: '2025',
       description: 'A professional institutional email management system built for K. K. Wagh Institute of Engineering Education and Research as a DBMS project. UniMail provides a secure, database-driven platform for composing, storing, and translating institutional emails with Hindi/Marathi support, PDF management, and Gmail integration — all in a modern glassmorphism UI.',
