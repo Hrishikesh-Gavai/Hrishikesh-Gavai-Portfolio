@@ -20,6 +20,16 @@ const ProjectsPage = () => {
       featured: true,
     },
     {
+      title: 'AESTIMA',
+      year: '2025',
+      description: 'An AI/ML-powered construction cost estimation platform that analyzes DXF drawings to generate accurate project cost estimates in minutes. AESTIMA automates quantity extraction from architectural and structural plans using intelligent DXF parsing and applies machine learning models trained on historical construction data to predict material quantities and costs, eliminating manual errors and significantly reducing estimation time.',
+      tech: ['Python', 'Flask', 'Machine Learning', 'scikit-learn', 'DXF Parsing (ezdxf)', 'Data Processing (pandas)', 'HTML', 'CSS', 'JavaScript', 'Deployment (Render)'],
+      image: 'https://images.unsplash.com/photo-1572899680018-5ec9f332bd4a?w=1920&q=95&auto=format',
+      github: 'https://aestima.onrender.com',
+      demo: 'https://aestima.onrender.com',
+      featured: true,
+    },
+    {
       title: 'Joint Audio Language Model (ALM)',
       year: '2025',
       description: 'Currently developing a context-aware audio AI that processes and reasons over both speech and non-speech sounds. Built on a hybrid AR-NAR Transformer backbone, it integrates speech recognition, audio event detection, and paralinguistic analysis via cross-modal fusion and reasoning modules for real-time inference.',
