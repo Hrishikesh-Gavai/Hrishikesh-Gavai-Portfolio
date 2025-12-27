@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { Award, CheckCircle, ExternalLink, Trophy, Star, Medal, ComputerDesktop } from 'lucide-react';
+import { Award, CheckCircle, ExternalLink, Trophy, Star, Medal } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
 import MainScene from '../scenes/MainScene';
 
@@ -77,7 +77,7 @@ const CertificationsPage = () => {
       date: '2025',
       description: 'Attended a 2-day intensive offline workshop covering core Machine Learning concepts, Python for data analysis, supervised and unsupervised techniques, and an introduction to deep learning. Gained hands-on experience while visiting the IIT Bombay campus and engaging with participants from across the globe.',
       skills: ['Machine Learning', 'Python', 'Data Analysis', 'Supervised Learning', 'Unsupervised Learning', 'Deep Learning', 'Project Implementation'],
-      icon: <ComputerDesktop className="w-12 h-12" style={{ color: `var(--primary-color)` }} />,
+      icon: <Trophy className="w-12 h-12" style={{ color: `var(--primary-color)` }} />,
       link: 'https://drive.google.com/file/d/1g1hEhVqOjNJ_RMpCa2sddG9Nqfv1j_QB/view?usp=drive_link',
       featured: true,
     },
