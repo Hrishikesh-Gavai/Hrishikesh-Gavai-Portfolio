@@ -52,7 +52,7 @@ const CertificationsPage = () => {
       featured: true,
     },
     {
-      title: 'Programming in Java',
+      title: 'NPTEL Programming in Java',
       issuer: 'NPTEL',
       date: '2025',
       description: 'Completed a comprehensive Java programming course covering object-oriented concepts, Java frameworks, and application development best practices, achieving a score of 94%.',
@@ -69,6 +69,16 @@ const CertificationsPage = () => {
       skills: ['OpenAI APIs', 'GPT-4o', 'Generative AI', 'AI Agents', 'Prompt Engineering'],
       icon: <Trophy className="w-12 h-12" style={{ color: `var(--primary-color)` }} />,
       link: 'https://drive.google.com/file/d/165hRGE40LTQxe-ErsyRgQHbGwIYx8QyA/view?usp=drive_link',
+      featured: true,
+    },
+    {
+      title: 'Machine Learning Workshop (MLverse 2.0)',
+      issuer: 'Techfest IIT Bombay',
+      date: '2025',
+      description: 'Attended a 2-day intensive offline workshop covering core Machine Learning concepts, Python for data analysis, supervised and unsupervised techniques, and an introduction to deep learning. Gained hands-on experience while visiting the IIT Bombay campus and engaging with participants from across the globe.',
+      skills: ['Machine Learning', 'Python', 'Data Analysis', 'Supervised Learning', 'Unsupervised Learning', 'Deep Learning', 'Project Implementation'],
+      icon: <ComputerDesktop className="w-12 h-12" style={{ color: `var(--primary-color)` }} />,
+      link: 'https://drive.google.com/file/d/1g1hEhVqOjNJ_RMpCa2sddG9Nqfv1j_QB/view?usp=drive_link',
       featured: true,
     },
   ];
