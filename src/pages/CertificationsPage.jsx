@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { Award, CheckCircle, ExternalLink, Trophy, Star, Medal } from 'lucide-react';
+import { Award, CheckCircle, ExternalLink, Trophy, Star, Medal, ComputerDesktop } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
 import MainScene from '../scenes/MainScene';
 
