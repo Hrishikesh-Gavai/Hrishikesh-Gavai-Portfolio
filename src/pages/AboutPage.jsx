@@ -25,7 +25,7 @@ const AboutPage = () => {
   };
 
   const education = [
-    { title: 'B.Tech Computer Engineering', institution: 'KKWIEER - Third Year', grade: 'SGPA: 9.0' },
+    { title: 'B.Tech Computer Engineering', institution: 'KKWIEER - Third Year', grade: 'SGPA: 9.27' },
   ];
 
   const coCurricular = [
