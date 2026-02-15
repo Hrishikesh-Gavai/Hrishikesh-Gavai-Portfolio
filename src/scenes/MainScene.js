@@ -50,7 +50,7 @@ function Starfield() {
 
 // Dynamic Color Particles
 function DynamicParticles() {
-  const { theme } = useTheme();
+  //const { theme } = useTheme();
   const particlesRef = useRef();
   const particleCount = 800;
   const [particleColor, setParticleColor] = useState('#9C27B0'); // Purple default
