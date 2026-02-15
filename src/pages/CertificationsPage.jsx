@@ -71,13 +71,22 @@ const CertificationsPage = () => {
       link: 'https://drive.google.com/file/d/165hRGE40LTQxe-ErsyRgQHbGwIYx8QyA/view?usp=drive_link',
       featured: true,
     },
+    {
+      title: 'Machine Learning Workshop (MLverse 2.0)',
+      issuer: 'Techfest IIT Bombay',
+      date: '2025',
+      description: 'Attended a 2-day intensive offline workshop covering core Machine Learning concepts, Python for data analysis, supervised and unsupervised techniques, and an introduction to deep learning. Gained hands-on experience while visiting the IIT Bombay campus and engaging with participants from across the globe.',
+      skills: ['Machine Learning', 'Python', 'Data Analysis', 'Supervised Learning', 'Unsupervised Learning', 'Deep Learning', 'Project Implementation'],
+      icon: <Trophy className="w-12 h-12" style={{ color: `var(--primary-color)` }} />,
+      link: 'https://drive.google.com/file/d/1g1hEhVqOjNJ_RMpCa2sddG9Nqfv1j_QB/view?usp=drive_link',
+      featured: true,
+    },
   ];
 
   const achievements = [
     {
       title: '1st Rank at Institute Level Final Year Project Competition',
       description: 'Lead Developer for a Civil Engineering interdisciplinary final-year project, winning 1st place at the institute-level (AESTIMA).',
-      icon: <Trophy className="w-8 h-8" style={{ color: `var(--primary-color)` }} />,
     },
     {
       title: 'IPR and Patent Filing (In Process)',
@@ -103,7 +112,7 @@ const CertificationsPage = () => {
       title: 'Top 1% Ranking in NPTEL Course',
       description: 'Secured top 1% ranking among thousands of participants in a prestigious NPTEL online course.',
       icon: <Award className="w-8 h-8" style={{ color: `var(--primary-color)` }} />,
-    },
+    },  
   ];
 
   return (
