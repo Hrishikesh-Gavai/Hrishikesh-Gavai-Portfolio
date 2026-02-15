@@ -65,30 +65,10 @@ const CertificationsPage = () => {
       title: 'Generative AI Mastery Workshop',
       issuer: 'OpenAI Academy x NxtWave',
       date: '2025',
-      description: "Completed intensive hands-on workshop on Generative AI fundamentals and OpenAI APIs. Learned to build GenAI applications using GPT-4o, Whisper, and DALL·E. Part of India's largest GenAI challenge with 28,000+ students across 813+ colleges nationwide.",
+      description: 'Completed intensive hands-on workshop on Generative AI fundamentals and OpenAI APIs. Learned to build GenAI applications using GPT-4o, Whisper, and DALL·E. Part of India\'s largest GenAI challenge with 28,000+ students across 813+ colleges nationwide.',
       skills: ['OpenAI APIs', 'GPT-4o', 'Generative AI', 'AI Agents', 'Prompt Engineering'],
       icon: <Trophy className="w-12 h-12" style={{ color: `var(--primary-color)` }} />,
       link: 'https://drive.google.com/file/d/165hRGE40LTQxe-ErsyRgQHbGwIYx8QyA/view?usp=drive_link',
-      featured: true,
-    },
-    {
-      title: 'Machine Learning Workshop (MLverse 2.0)',
-      issuer: 'Techfest IIT Bombay',
-      date: '2025',
-      description: 'Attended a 2-day intensive offline workshop covering core Machine Learning concepts, Python for data analysis, supervised and unsupervised techniques, and an introduction to deep learning. Gained hands-on experience while visiting the IIT Bombay campus and engaging with participants from across the globe.',
-      skills: ['Machine Learning', 'Python', 'Data Analysis', 'Supervised Learning', 'Unsupervised Learning', 'Deep Learning', 'Project Implementation'],
-      icon: <Trophy className="w-12 h-12" style={{ color: `var(--primary-color)` }} />,
-      link: 'https://drive.google.com/file/d/1g1hEhVqOjNJ_RMpCa2sddG9Nqfv1j_QB/view?usp=drive_link',
-      featured: true,
-    },
-    {
-      title: 'OpenAI Academy x NxtWave Regional Buildathon',
-      issuer: 'NxtWave',
-      date: '2026',
-      description: "Participated in a 2-day intensive state level hackathon making use of Generative AI. Learned to build GenAI applications using Gemini APIs. Part of India's largest GenAI challenge with 28,000+ students across 813+ colleges nationwide.",
-      skills: ['Full Stack Development', 'Generative AI', 'MERN Stack', 'Project Implementation'],
-      icon: <Trophy className="w-12 h-12" style={{ color: `var(--primary-color)` }} />,
-      link: 'https://drive.google.com/file/d/1AGPhVQqOxbz6_UczYbPLlIjGt5mfr4h4/view?usp=drive_link',
       featured: true,
     },
   ];
@@ -122,11 +102,6 @@ const CertificationsPage = () => {
     {
       title: 'Top 1% Ranking in NPTEL Course',
       description: 'Secured top 1% ranking among thousands of participants in a prestigious NPTEL online course.',
-      icon: <Award className="w-8 h-8" style={{ color: `var(--primary-color)` }} />,
-    },
-    {
-      title: 'OpenAI Academy x NxtWave Regional Buildathon - Maharashtra',
-      description: 'Got Selected and Participated at the Largest Indian Gen AI Challenge',
       icon: <Award className="w-8 h-8" style={{ color: `var(--primary-color)` }} />,
     },
   ];
