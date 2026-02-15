@@ -82,7 +82,7 @@ const CertificationsPage = () => {
       featured: true,
     },
     {
-      title: 'OpenAI Academy x NxtWave Regional Buildathon - Maharashtra',
+      title: 'OpenAI Academy x NxtWave Regional Buildathon',
       issuer: 'NxtWave',
       date: '2026',
       description: "Participated in a 2-day intensive state level hackathon making use of Generative AI. Learned to build GenAI applications using Gemini APIs. Part of India's largest GenAI challenge with 28,000+ students across 813+ colleges nationwide.",
@@ -90,7 +90,7 @@ const CertificationsPage = () => {
       icon: <Trophy className="w-12 h-12" style={{ color: `var(--primary-color)` }} />,
       link: 'https://drive.google.com/file/d/1AGPhVQqOxbz6_UczYbPLlIjGt5mfr4h4/view?usp=drive_link',
       featured: true,
-    }
+    },
   ];
 
   const achievements = [
@@ -127,8 +127,8 @@ const CertificationsPage = () => {
     {
       title: 'OpenAI Academy x NxtWave Regional Buildathon - Maharashtra',
       description: 'Got Selected and Participated at the Largest Indian Gen AI Challenge',
-      icon: <Star className="w-8 h-8" style={{ color: `var(--primary-color)` }} />,
-    }  
+      icon: <Award className="w-8 h-8" style={{ color: `var(--primary-color)` }} />,
+    },
   ];
 
   return (
