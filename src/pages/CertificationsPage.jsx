@@ -81,6 +81,16 @@ const CertificationsPage = () => {
       link: 'https://drive.google.com/file/d/1g1hEhVqOjNJ_RMpCa2sddG9Nqfv1j_QB/view?usp=drive_link',
       featured: true,
     },
+    {
+      title: 'OpenAI Academy x NxtWave Regional Buildathon - Maharashtra',
+      issuer: 'NxtWave',
+      date: '2026',
+      description: 'Attended a 2-day State Level Hackathon strengthening Generative AI fundamentals. Learned to build GenAI applications using GPT-4o, Gemini, Claude, etc. as Part of India\'s largest GenAI challenge with 28,000+ students across 813+ colleges nationwide.',
+      skills: ['Generative AI', 'Full Stack Development', 'DBMS', 'Data Collection', 'Web Scraping', 'Image Processing and Analysis', 'Project Implementation'],
+      icon: <Trophy className="w-12 h-12" style={{ color: `var(--primary-color)` }} />,
+      link: 'https://drive.google.com/file/d/1AGPhVQqOxbz6_UczYbPLlIjGt5mfr4h4/view?usp=drive_link',
+      featured: true,
+    },
   ];
 
   const achievements = [
@@ -112,7 +122,12 @@ const CertificationsPage = () => {
       title: 'Top 1% Ranking in NPTEL Course',
       description: 'Secured top 1% ranking among thousands of participants in a prestigious NPTEL online course.',
       icon: <Award className="w-8 h-8" style={{ color: `var(--primary-color)` }} />,
-    },  
+    },
+    {
+      title: 'OpenAI Academy x NxtWave State Level Buildathon Finalist',
+      description: 'Shortlisted and participated at India\'s Largest Gen AI Hackathon',
+      icon: <Award className="w-8 h-8" style={{ color: `var(--primary-color)` }} />,
+    }, 
   ];
 
   return (
