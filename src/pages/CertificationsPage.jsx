@@ -85,7 +85,7 @@ const CertificationsPage = () => {
       title: 'OpenAI Academy x NxtWave Regional Buildathon - Maharashtra',
       issuer: 'NxtWave',
       date: '2026',
-      description: 'Participated in a 2-day intensive state level hackathon making use of Generative AI. Learned to build GenAI applications using Gemini API's. Part of India\'s largest GenAI challenge with 28,000+ students across 813+ colleges nationwide.',
+      description: 'Participated in a 2-day intensive state level hackathon making use of Generative AI. Learned to build GenAI applications using Gemini API\'s. Part of India\'s largest GenAI challenge with 28,000+ students across 813+ colleges nationwide.',
       skills: ['Full Stack Development', 'Generative AI', 'MERN Stack', 'Project Implementation'],
       icon: <Trophy className="w-12 h-12" style={{ color: `var(--primary-color)` }} />,
       link: 'https://drive.google.com/file/d/1AGPhVQqOxbz6_UczYbPLlIjGt5mfr4h4/view?usp=drive_link',
@@ -97,6 +97,7 @@ const CertificationsPage = () => {
     {
       title: '1st Rank at Institute Level Final Year Project Competition',
       description: 'Lead Developer for a Civil Engineering interdisciplinary final-year project, winning 1st place at the institute-level (AESTIMA).',
+      icon: <Trophy className="w-8 h-8" style={{ color: `var(--primary-color)` }} />,
     },
     {
       title: 'IPR and Patent Filing (In Process)',
