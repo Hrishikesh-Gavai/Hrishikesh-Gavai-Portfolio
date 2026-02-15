@@ -97,6 +97,7 @@ const CertificationsPage = () => {
     {
       title: '1st Rank at Institute Level Final Year Project Competition',
       description: 'Lead Developer for a Civil Engineering interdisciplinary final-year project, winning 1st place at the institute-level (AESTIMA).',
+      icon: <Award className="w-8 h-8" style={{ color: `var(--primary-color)` }} />,
     },
     {
       title: 'IPR and Patent Filing (In Process)',
