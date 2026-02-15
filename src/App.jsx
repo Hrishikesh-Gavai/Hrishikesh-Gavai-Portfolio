@@ -64,7 +64,7 @@ function App() {
         audioInitialized.current = false;
       }
     };
-  }, []);
+  }, [isMuted]);
 
   // Handle mute/unmute with proper state management
   useEffect(() => {
@@ -174,12 +174,12 @@ function App() {
     };
 
     // Prevent image context menu (extra protection)
-    const handleImageContextMenu = (e) => {
-      if (e.target.tagName === 'IMG') {
-        e.preventDefault();
-        return false;
-      }
-    };
+    //const handleImageContextMenu = (e) => {
+      //if (e.target.tagName === 'IMG') {
+        //e.preventDefault();
+        //return false;
+      //}
+    //};
 
     document.addEventListener('contextmenu', handleContextMenu);
     document.addEventListener('keydown', handleKeyDown);
