@@ -91,6 +91,16 @@ const CertificationsPage = () => {
       link: 'https://drive.google.com/file/d/1AGPhVQqOxbz6_UczYbPLlIjGt5mfr4h4/view?usp=drive_link',
       featured: true,
     },
+    {
+      title: 'INDRADHANU - International Grand Challenge 25-26',
+      issuer: 'PCCOE, Pune',
+      date: '2025 - 2026',
+      description: 'Participated  in the International Relations Cell at Pimpri Chinchwad College of Engineering, Pune\'s PCCOE-IGC 2026, which had its theme as "AI for Climate Change." There, I learned how artificial intelligence might be used to solve urgent climate issues. My comprehension of the vital role that technology and international cooperation play in promoting long-lasting and significant solutions has grown as a result of the experience.',
+      skills: ['Climate Awareness', 'Generative AI', 'Full Stack Development', 'DBMS', 'Data Collection', 'Web Scraping', 'Image Processing and Analysis', 'Project Implementation'],
+      icon: <CheckCircle className="w-12 h-12" style={{ color: `var(--primary-color)` }} />,
+      link: 'https://drive.google.com/file/d/1reqUop4TmdhZOMSPHxI0uKhnNmslNzBL/view?usp=drive_link',
+      featured: true,
+    },
   ];
 
   const achievements = [
