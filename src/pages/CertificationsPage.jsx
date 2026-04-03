@@ -109,7 +109,7 @@ const CertificationsPage = () => {
       skills: ['Data Visualization', 'Business Insights', 'Data Storytelling', 'Analytics'],
       icon: <Trophy className="w-12 h-12" style={{ color: `var(--primary-color)` }} />,
       link: 'https://drive.google.com/file/d/1AWCsRjXP2NyKR9yR8L3jFRw0Ls8qwmeH/view?usp=drive_link',
-      featured: false,
+      featured: true,
     },
     {
       title: 'Cybersecurity Analyst Job Simulation',
@@ -119,7 +119,7 @@ const CertificationsPage = () => {
       skills: ['Cybersecurity', 'IAM', 'Security Strategy', 'Platform Integration'],
       icon: <Trophy className="w-12 h-12" style={{ color: `var(--primary-color)` }} />,
       link: 'https://drive.google.com/file/d/1itFF6HYnVh7AL1aVzLsSzz5hARx2xHVy/view?usp=drive_link',
-      featured: false,
+      featured: true,
     },
     {
       title: 'ESG (Environmental, Social, and Governance) Job Simulation',
@@ -129,7 +129,17 @@ const CertificationsPage = () => {
       skills: ['ESG', 'Sustainability Analysis', 'Client Analysis', 'Strategic Assessment'],
       icon: <Trophy className="w-12 h-12" style={{ color: `var(--primary-color)` }} />,
       link: 'https://drive.google.com/file/d/1XEC4Sx3YGbJNZHetQa-v0yDiWgg-bx7N/view?usp=drive_link',
-      featured: false,
+      featured: true,
+    },
+    {
+      title: 'Introduction to MERN Stack',
+      issuer: 'SimpliLearn | SkillUp',
+      date: '2026',
+      description: 'Learned the fundamentals of the MERN stack, including MongoDB, Express.js, React, and Node.js. Gained an understanding of how frontend and backend technologies work together, along with basic concepts of REST APIs and database management.',
+      skills: ['MongoDB', 'Express.js', 'React', 'Node.js', 'REST APIs', 'Web Development Basics'],
+      icon: <Trophy className="w-12 h-12" style={{ color: `var(--primary-color)` }} />,
+      link: 'https://drive.google.com/file/d/1G00HGc_8r-HA7L3y-SlcvGw91FvPvCnA/view?usp=sharing',
+      featured: true,
     },
   ];
 
