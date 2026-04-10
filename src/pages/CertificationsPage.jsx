@@ -141,6 +141,16 @@ const CertificationsPage = () => {
       link: 'https://drive.google.com/file/d/1G00HGc_8r-HA7L3y-SlcvGw91FvPvCnA/view?usp=sharing',
       featured: true,
     },
+    {
+      title: 'Getting Started with Full Stack Java Development',
+      issuer: 'SimpliLearn | SkillUp',
+      date: '2026',
+      description: 'Learned the basics of full stack Java development, covering core concepts of Java, HTML, CSS, Spring Boot, frontend + backend integration. Gained an understanding of building REST APIs and connecting applications with databases.',
+      skills: ['Java', 'Spring Boot', 'REST APIs', 'Backend Development', 'Database Basics', 'Full Stack Development'],
+      icon: <Trophy className="w-12 h-12" style={{ color: `var(--primary-color)` }} />,
+      link: 'https://drive.google.com/file/d/1Q-WeDC7opnILGcnyb-ioAWDSzj38RKbg/view?usp=drive_link',
+      featured: true,
+    }
   ];
 
   const achievements = [
