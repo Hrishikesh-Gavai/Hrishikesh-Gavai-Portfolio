@@ -175,6 +175,11 @@ const CertificationsPage = () => {
       icon: <Medal className="w-8 h-8" style={{ color: `var(--primary-color)` }} />,
     },
     {
+      title: '3rd Prize – Data Science & Big Data Mini-Project Competition',
+      description: 'Recognized for developing Netra.AI, an AI-powered retinal disease detection system, at the Department of Computer Engineering, KKWIEER. The project demonstrated strong technical depth in Machine Learning and Computer Vision, along with practical healthcare applicability.',
+      icon: <Medal className="w-8 h-8" style={{ color: `var(--primary-color)` }} />,
+    },
+    {
       title: 'Google Cloud Arcade - Legend Tier',
       description: 'Achieved the prestigious Legend Tier status in Google Cloud Arcade Facilitator program, completing 120+ badges and 95+ arcade points.',
       icon: <Star className="w-8 h-8" style={{ color: `var(--primary-color)` }} />,
