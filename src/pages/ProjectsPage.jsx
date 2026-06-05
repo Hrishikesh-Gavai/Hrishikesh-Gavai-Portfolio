@@ -40,6 +40,16 @@ const ProjectsPage = () => {
       featured: true,
     },
     {
+      title: 'Netra.AI – Retinal Disease Detection System',
+      year: '2026',
+      description: 'An AI-powered retinal disease detection system designed to assist in the early identification of vision-threatening conditions. Netra.AI utilizes the VGG19 convolutional neural network (CNN) architecture with transfer learning to classify retinal fundus images into categories such as Cataract, Diabetic Retinopathy, and other ocular diseases. The system follows an end-to-end pipeline — from image preprocessing and model inference to generating plain-language health guidance using cloud-based LLMs. It also integrates verified local specialist discovery to provide actionable next steps, combining technical depth with real-world clinical relevance.',
+      tech: ['Python', 'TensorFlow', 'VGG19', 'CNN', 'Transfer Learning', 'Flask', 'LLMs', 'Web Scraping', 'Machine Learning', 'Computer Vision'],
+      image: 'https://images.unsplash.com/photo-1512521743077-a42eeaaa963c?w=1920&q=95&auto=format',
+      github: 'https://github.com/Hrishikesh-Gavai/Netra.AI.git',
+      demo: 'https://github.com/Hrishikesh-Gavai/Netra.AI.git',
+      featured: true,
+    },
+    {
       title: 'TatRakshak',
       year: '2025',
       description: 'Integrated Platform for Crowdsourced Ocean Hazard Reporting. A unified, citizen-powered platform combining crowd reports, social media signals, and official INCOIS data to create a real-time "digital twin" of India\'s coastline with AI-driven media verification and severity scoring.',
